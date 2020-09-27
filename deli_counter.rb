@@ -27,9 +27,6 @@ def now_serving(other_deli)
   if other_deli.empty?
     puts "There is nobody waiting to be served!"
   else
-
     puts "Currently serving #{other_deli.shift}."
-
   end
-
 end
