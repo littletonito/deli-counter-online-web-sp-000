@@ -15,7 +15,6 @@ def line(other_deli)
     puts "The line is currently: #{deli.join(" ")}"
   end
 end
-binding.pry
 
 
 def take_a_number(katz_deli, name)
